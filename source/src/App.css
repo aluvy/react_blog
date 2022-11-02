@@ -1,0 +1,21 @@
+header{display:flex; align-items:center; height:3.5rem; background:#000; padding-left:1rem;}
+header h1{font-size:1.25rem; color:#fff; font-weight:700; cursor:pointer;}
+
+.sort{margin:1rem; text-align:right;}
+
+.list{border-top:1px solid #999;}
+.list li{position:relative; padding:1rem; border-bottom:1px solid #ddd;}
+.list li h3{font-weight:700; cursor:pointer;}
+.list li h3 span{font-weight:400; cursor: pointer;}
+.list li p{font-size:12px; margin:1rem 0 0;}
+.list li button{position:absolute; right:1rem; top:1rem;}
+
+.inputBox{display:flex; align-items:center; justify-content: center; margin:1rem;}
+.inputBox input,
+.inputBox button{height:1.7rem; box-sizing:border-box;}
+
+.modal{margin:1rem; padding:1.5rem; background:#f2f2f2;}
+.modal h3{font-weight:700;}
+.modal p{font-size:12px; margin:1rem 0 0;}
+.modal span{display: block; font-size:13px; margin:1rem 0;}
+.modal button{}
